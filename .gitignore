@@ -1,0 +1,23 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# MATLAB temporary and autosave files
+*.asv
+*.m~
+
+# Local REFPROP binaries. Install REFPROP locally instead of committing DLLs.
+REFPRP64.DLL
+REFPRP64_thunk_pcwin64.dll
+*.dll
+
+# Raw full-search result CSV files are generated data and are too large for GitHub.
+fluid_data/*_40year_twostage_all_feasible_*.csv
+
+# Uncompressed generated montage images exceed GitHub's normal file limit.
+figures_process_exergy_distribution_2year/process_exergy_distribution_2year_3x3_grid.png
+figures_process_exergy_distribution_5year/process_exergy_distribution_5year_3x3_grid.png
+
+# Local logs and scratch outputs
+*.log
+*.tmp
